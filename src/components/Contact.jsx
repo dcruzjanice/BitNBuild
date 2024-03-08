@@ -1,5 +1,5 @@
 import React from 'react';
-import contactImage from '../images/s2.jpg'; // Replace with the actual path to your image
+import contactImage from './images/s2.jpg'; // Replace with the actual path to your image
 
 const Contact = () => {
   return (

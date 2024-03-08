@@ -1,5 +1,5 @@
 import React from 'react';
-import ab2 from '../images/a2.jpg';
+import ab2 from './images/a2.jpg';
 
 const AboutUs = () => {
   return (
@@ -38,7 +38,7 @@ const AboutUs = () => {
         <div className="col-md-4">
           <img src={ab2} className="img-fluid rounded" alt="About Us" />
         </div>
-      </div>
+      </div><br/><br/><br/><br/>
     </div>
   );
 };

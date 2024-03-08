@@ -9,7 +9,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
         <div className='sidebar-title'>
             <div className='sidebar-brand'>
-                <BsGrid1X2Fill  className='icon_header text-white'/> CorruptionWatch
+                 CorruptionWatch
             </div>
             <span className='icon close_icon' onClick={OpenSidebar}>X</span>
         </div>
@@ -22,12 +22,12 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsFillArchiveFill className='icon'/> Complaints
+                    <BsFillArchiveFill className='icon'/> Cases
                 </a>
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsFillGrid3X3GapFill className='icon'/> Categories
+                    <BsFillGrid3X3GapFill className='icon'/> Investigations
                 </a>
             </li>
             <li className='sidebar-list-item'>
@@ -36,8 +36,8 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
                 </a>
             </li>
             <li className='sidebar-list-item'>
-                <a href="">
-                    <BsListCheck className='icon'/> Articles
+                <a href="/casemanagementsystem">
+                    <BsListCheck className='icon'/> Management System
                 </a>
             </li>
             <li className='sidebar-list-item'>
@@ -45,10 +45,14 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
                     <BsMenuButtonWideFill className='icon'/> Reports
                 </a>
             </li>
-            
+            <li className='sidebar-list-item'>
+                <a href="">
+                    <BsFillGearFill className='icon'/> Settings
+                </a>
+            </li>
         </ul>
     </aside>
   )
 }
 
-export default Sidebar;
+export default Sidebar
